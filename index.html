@@ -3,87 +3,65 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>蟹钳菜 — alai.cn</title>
+<title>蟹钳菜</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Segoe UI',system-ui,sans-serif;background:#0f0f0f;color:#e0e0e0;min-height:100vh}
-nav{display:flex;justify-content:space-between;align-items:center;padding:1.5rem 2rem;border-bottom:1px solid #1a1a1a}
-.logo{font-size:1.5rem;font-weight:700;color:#ff6b35}
-.logo span{color:#666}
-.nav-links{display:flex;gap:2rem}
-.nav-links a{color:#888;text-decoration:none;transition:color .3s}
-.nav-links a:hover{color:#ff6b35}
-.hero{text-align:center;padding:6rem 2rem 3rem}
-.hero h1{font-size:3rem;color:#fff;margin-bottom:1rem}
-.hero p{color:#888;font-size:1.2rem;max-width:600px;margin:0 auto}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;padding:2rem;max-width:1100px;margin:0 auto}
-.card{background:#1a1a1a;border-radius:12px;padding:2rem;border:1px solid #222;transition:border-color .3s}
-.card:hover{border-color:#ff6b3566}
-.card .icon{font-size:2rem;margin-bottom:1rem}
-.card h3{color:#fff;margin-bottom:.5rem}
-.card p{color:#888;font-size:.9rem;line-height:1.6}
-.card .tag{display:inline-block;background:#ff6b3520;color:#ff6b35;padding:.2rem .8rem;border-radius:20px;font-size:.75rem;margin-top:1rem}
-footer{text-align:center;padding:3rem;color:#444;font-size:.85rem}
-.a{color:#ff6b35}
+body{font-family:system-ui,-apple-system,sans-serif;background:#0d0d0d;color:#ccc;min-height:100vh;padding:2rem}
+.wrap{max-width:900px;margin:0 auto}
+.tagline{color:#666;font-size:1.1rem;margin-bottom:3rem;line-height:1.8}
+.tagline b{color:#ff6b35}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
+.card{background:#161616;border-radius:8px;padding:1.5rem;border:1px solid #1f1f1f}
+.card .emoji{font-size:1.6rem;margin-bottom:.6rem}
+.card h3{color:#eee;font-size:1rem;margin-bottom:.5rem;font-weight:600}
+.card p{color:#888;font-size:.85rem;line-height:1.7}
+footer{margin-top:4rem;text-align:center;color:#333;font-size:.8rem}
+footer a{color:#ff6b35;text-decoration:none}
 </style>
 </head>
 <body>
-<nav>
-  <div class="logo">🦀 蟹钳菜<span> / alai.cn</span></div>
-  <div class="nav-links">
-    <a href="#">首页</a>
-    <a href="#">写作</a>
-    <a href="#">视频</a>
-    <a href="#">交易</a>
-  </div>
-</nav>
+<div class="wrap">
+<div class="tagline">
+  <b>蟹钳菜</b>，用 AI 写作、做视频、跑交易。<br>一个人就是一支队伍。
+</div>
 
-<section class="hero">
-  <h1>万物可期，人间值得</h1>
-  <p>墨西哥的蟹钳菜，用 AI 写作、做视频、跑交易。一个人就是一支队伍。</p>
-</section>
-
-<div class="cards">
+<div class="grid">
   <div class="card">
-    <div class="icon">✍️</div>
+    <div class="emoji">✍️</div>
     <h3>写作引擎</h3>
     <p>汪曾祺的淡、李娟的静、徐志摩的诗、季羡林的深——五种风格自由切换，18页 Wiki 知识库驱动。</p>
-    <span class="tag">5种风格</span>
   </div>
   <div class="card">
-    <div class="icon">🎬</div>
+    <div class="emoji">🎬</div>
     <h3>视频工厂</h3>
     <p>AI 脚本 → 配音 → 素材 → 合成，全自动流水线。卡拉OK字幕、数据动效、AI 语音解说。</p>
-    <span class="tag">全自动</span>
   </div>
   <div class="card">
-    <div class="icon">💰</div>
+    <div class="emoji">💰</div>
     <h3>交易系统</h3>
     <p>四钱包并行：赛事跟单、保守策略、电竞预测、加密套利。24/7 自动运行，AI 辅助决策。</p>
-    <span class="tag">4钱包</span>
   </div>
   <div class="card">
-    <div class="icon">🤖</div>
+    <div class="emoji">🤖</div>
     <h3>AI 助手「小墨」</h3>
     <p>基于 Hermes Agent，60+ 技能，从代码到创作到交易策略，全能的数字伙伴。</p>
-    <span class="tag">60+ Skills</span>
   </div>
   <div class="card">
-    <div class="icon">📚</div>
+    <div class="emoji">📚</div>
     <h3>散文创作</h3>
     <p>当代散文名篇分析、作家风格拆解、原创范文库。公众号「蟹钳菜」持续输出。</p>
-    <span class="tag">18页Wiki</span>
   </div>
   <div class="card">
-    <div class="icon">🌐</div>
+    <div class="emoji">🌐</div>
     <h3>WEB3 探索</h3>
     <p>Polymarket 预测市场、PolyCop 跟单、Polygon 链上——在去中心化世界里找确定性。</p>
-    <span class="tag">Web3</span>
   </div>
 </div>
 
 <footer>
-  © 2026 <span class="a">蟹钳菜</span> · 墨西哥 · 由小墨驱动
+  <a href="https://x.com/alaico71">X</a> · 
+  <a href="https://t.me/xiaomohelper_bot">Telegram</a>
 </footer>
+</div>
 </body>
 </html>
