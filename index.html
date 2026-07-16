@@ -6,67 +6,21 @@
 <title>蟹钳菜</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:system-ui,-apple-system,sans-serif;background:#0d0d0d;color:#ccc;min-height:100vh;padding:2rem}
-.wrap{max-width:900px;margin:0 auto}
-.tagline{color:#666;font-size:1.1rem;margin-bottom:3rem;line-height:1.8}
-.tagline b{color:#ff6b35}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
-.card{background:#161616;border-radius:8px;padding:1.5rem;border:1px solid #1f1f1f}
-.card .emoji{font-size:1.6rem;margin-bottom:.6rem}
-.card h3{color:#eee;font-size:1rem;margin-bottom:.5rem;font-weight:600}
-.card p{color:#888;font-size:.85rem;line-height:1.7}
-footer{margin-top:4rem;text-align:center;color:#333;font-size:.8rem}
-footer a{color:#ff6b35;text-decoration:none}
+body{background:#000;color:#ccc;font-family:system-ui,sans-serif;min-height:100vh;display:flex;flex-direction:column;align-items:center}
+.video-box{max-width:900px;width:100%;margin:2rem 1rem}
+video{width:100%;border-radius:8px;outline:none}
+footer{margin-top:auto;padding:2rem;color:#333;font-size:.8rem;text-align:center}
+footer a{color:#444;text-decoration:none}
 </style>
 </head>
 <body>
-<div class="wrap">
-<div class="tagline">
-  <b>蟹钳菜</b>，用 AI 写作、做视频、跑交易。<br>一个人就是一支队伍。
+<div class="video-box">
+  <video controls autoplay muted playsinline>
+    <source src="/alai/media.mp4" type="video/mp4">
+  </video>
 </div>
-
-<div class="grid">
-  <div class="card">
-    <div class="emoji">✍️</div>
-    <h3>写作引擎</h3>
-    <p>汪曾祺的淡、李娟的静、徐志摩的诗、季羡林的深——五种风格自由切换，18页 Wiki 知识库驱动。</p>
-  </div>
-  <div class="card">
-    <div class="emoji">🎬</div>
-    <h3>视频工厂</h3>
-    <p>AI 脚本 → 配音 → 素材 → 合成，全自动流水线。卡拉OK字幕、数据动效、AI 语音解说。</p>
-  </div>
-  <div class="card">
-    <div class="emoji">💰</div>
-    <h3>交易系统</h3>
-    <p>四钱包并行：赛事跟单、保守策略、电竞预测、加密套利。24/7 自动运行，AI 辅助决策。</p>
-  </div>
-  <div class="card">
-    <div class="emoji">🤖</div>
-    <h3>AI 助手「小墨」</h3>
-    <p>基于 Hermes Agent，60+ 技能，从代码到创作到交易策略，全能的数字伙伴。</p>
-  </div>
-  <div class="card">
-    <div class="emoji">📚</div>
-    <h3>散文创作</h3>
-    <p>当代散文名篇分析、作家风格拆解、原创范文库。公众号「蟹钳菜」持续输出。</p>
-  </div>
-  <div class="card">
-    <div class="emoji">🌐</div>
-    <h3>WEB3 探索</h3>
-    <p>Polymarket 预测市场、PolyCop 跟单、Polygon 链上——在去中心化世界里找确定性。</p>
-  </div>
-  <div class="card">
-    <div class="emoji">▶️</div>
-    <h3><a href="/alai/video.html" style="color:#eee;text-decoration:none">精选视频</a></h3>
-    <p>AI 配音 + 自然风光 + 原创散文——三分钟感受人与自然的诗意。</p>
-  </div>
-</div>
-
 <footer>
-  <a href="https://x.com/alaico71">X</a> · 
-  <a href="https://t.me/xiaomohelper_bot">Telegram</a>
+  <a href="https://x.com/alaico71">X</a>
 </footer>
-</div>
 </body>
 </html>
